@@ -422,6 +422,12 @@ const Home: React.FunctionComponent<HomeProps> = (props) => {
         className="page"
         style={{ pointerEvents: stop || win ? "none" : undefined }}
       >
+        <div>
+          powered by Amirhossein karimi & Ali Heydar
+        </div>
+        <div>
+          Hamedan University of Technology
+        </div>
         <div className="rows-wrapper">
           {[...Array(8)].map((_, rowNum) => (
             <div key={rowNum} className="cells-wrapper">
