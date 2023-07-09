@@ -1,3 +1,7 @@
+// Powered by Amirhossein karimi & Ali Heydar
+// Hamedan University of Technology
+
+
 import { Fragment, useEffect, useState } from "react";
 
 interface HomeProps {}
